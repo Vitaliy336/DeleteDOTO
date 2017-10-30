@@ -18,8 +18,6 @@ import static com.example.vitaliy.deletedoto.R.id.vs;
 public class MainActivity extends AppCompatActivity {
     Animation s_left, s_right;
     @BindView(R.id.vs)ViewSwitcher vs;
-    @BindView(R.id.button1)Button gt;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,12 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
         vs.setAnimation(s_left);
         vs.setAnimation(s_right);
-    //    submit();
     }
+
     @OnClick(R.id.button)
     public void submit(){
         vs.showNext();
     }
+
     @OnClick(R.id.button1)
     public void GOtO(){
         startActivity(new Intent(this, FormActivity.class));
