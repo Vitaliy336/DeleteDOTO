@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">DeleteDOTO</string>
+    <string name="gLength">Сред. длина игры:</string>
+    <string name="gPDay">Игр в сутки:</string>
+    <string name="topMMR">Топ ММР:</string>
+    <string name="donate">Компендиумов:</string>
+    <string name="GNTime">Сейчас</string>
+    <string name="DateTV">--:--:--</string>
+    <string name="CllockTV">--:--</string>
+    <string name="DLGame">Дата последней игры:</string>
+    <string name="Form">Форма</string>
 </resources>
